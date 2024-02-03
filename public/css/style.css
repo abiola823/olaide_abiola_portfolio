@@ -373,6 +373,10 @@ div p {
 } */
 
 @media screen and (max-width: 700px) {
+    .bounce {
+        width: 100%;
+        height: auto;
+    }
     .row1 { display: flex ; flex-direction: column-reverse ;}
     .parent .tools .desc {
             
