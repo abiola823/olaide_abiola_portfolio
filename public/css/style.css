@@ -288,6 +288,7 @@ header {
     animation-play-state: running;
     position: relative;
     z-index: 2;
+    display: block;
 }
 
 @keyframes bouncing {
