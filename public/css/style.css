@@ -230,7 +230,8 @@ header {
     margin-top: 30px;
     background-color:  rgb(141, 142, 147);
     padding: 10px 0px;
-    max-width: 100%;
+    width: 100%;
+   
 
 }
 .parent h1 {color: rgb(255, 255, 255); position: relative; left: 70px;}
@@ -239,6 +240,7 @@ header {
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .parent .tools .desc {
     padding: 5px;
