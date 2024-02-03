@@ -374,7 +374,7 @@ div p {
 
 @media screen and (max-width: 700px) {
     .bounce {
-        width: 80%;
+        width: 90%;
         height: auto;
         object-fit: contain;
     }
