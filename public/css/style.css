@@ -317,7 +317,9 @@ header {
     width: 30%;
 }
 
-
+.openClose {
+    display: none;
+}
 
 
 
@@ -373,6 +375,28 @@ div p {
 } */
 
 @media screen and (max-width: 700px) {
+    header {
+        
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        width: 0%;
+    }
+    .navigation ul li {
+        display: block;
+        float: none;
+        padding: 10px
+    }
+ 
+    .openClose {
+        display: block;
+        float: right;
+        cursor: pointer;
+        margin-right: 10px;
+        font-size: 30px;
+        position: relative;
+        
+    }
     .bounce {
         width: 90%;
         height: auto;

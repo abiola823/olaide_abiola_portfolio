@@ -11,7 +11,7 @@ const contactUser = async (req, res) => {
             email,
             message
         });
-        if(response) return res.status(200).sendFile(path.join(__dirname, 'response.html' ));
+        if(response) return res.status(201).send('Your request has been logged successfully');
 
     } catch (error) {
         res.send("could not send your message because: ", error.message);
