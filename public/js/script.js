@@ -11,7 +11,7 @@ burger.addEventListener('click', () => {
         // img.style.float = "right";
         // div.style.float = "right"
         // div.style.flexDirection = "column"
-        burger.innerHTML = "X";
+        burger.innerHTML = "&times";
         burger.style.zIndex = "3";
    } else {
     showNav.style.display = "none";
