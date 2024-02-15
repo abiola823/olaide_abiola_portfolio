@@ -12,6 +12,7 @@ burger.addEventListener('click', () => {
         // div.style.float = "right"
         // div.style.flexDirection = "column"
         burger.innerHTML = "&times";
+        burger.style.fontSize = "50px";
         burger.style.zIndex = "3";
    } else {
     showNav.style.display = "none";
